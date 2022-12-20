@@ -49,8 +49,6 @@
         color: var(--title-color);
     }
 
-    .header-list-contact {
-    }
     .header-link-contact {
         
         font-size: 16px;
@@ -93,11 +91,6 @@
 
     /* ---------ORDER----------- */
 
-    .section-order {
-    }
-    .order-list {
-    }
-   
     .order-title {
         font-weight: 600;
        font-size: 20px;
@@ -119,8 +112,6 @@
 
     /* ---------PHOTO--------- */
 
-    .section-photo {
-    }
     .photo-title {
         font-weight: 600;
         font-size: 36px;
@@ -129,11 +120,6 @@
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--title-color);
-    }
-    .photo-list {
-    }
-    
-    .photo-link {
     }
    
     /*---------TEAM CARD-----------  */
@@ -156,8 +142,7 @@
         background: #fff;
     }
     
-    .team-card-link {
-    }
+   
 
     .team-card-name {
         font-weight: 600;
@@ -188,29 +173,14 @@
 
 
 /* -----------------------PORTFOLIO-------------------- */
-.portfolio-body {
-font-family: 'Roboto' , sans-serif;
-color: #2E2F42;;
-}
 
-:root {
-    --title-color: #2E2F42;
-    --btn-title-collor: #fff;
-    --typical-if: 1.33 
-}
-
-.header-link:hover , :focus {
+.header-link:hover , .header-link:focus {
 color: #4D5AE5;
 }
 
 /* ------------BUTTONS------------ */
 
-.portfolio-section-btn {
-}
-.btn-list {
-}
-.list {
-}
+
 .portfolio-button  {
     font-family: inherit;
     font-weight: 600;
@@ -229,14 +199,8 @@ color: #4D5AE5;
 }
 
 /* --------INTER--------- */
-
-.section-inter {
-}
 .inter-list { 
     background: var(--btn-title-collor)
-}
-
-.inter-link {
 }
 
 .inter-title {
@@ -249,7 +213,7 @@ color: var(--title-color);
 }
 .inter-text {
     font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 
 letter-spacing: 0.02em;
 
@@ -259,13 +223,9 @@ color: #434455;
 
 /* --------SERVICE---------- */
 
-.section-service {
-}
+
 .service-list {
    background: var(--btn-title-collor);
-}
-
-.service-link {
 }
 
 .service-title {
@@ -290,13 +250,8 @@ color: #434455;
 
 /* ---------DESIGN------- */
 
-.section-design {
-}
 .design-list {
     background: var(--btn-title-collor);
-}
-
-.design-link {
 }
 
 .design-title {
@@ -335,7 +290,7 @@ color: #434455;
 }
 .footer-text {
     font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 
 letter-spacing: 0.02em;
 
