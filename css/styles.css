@@ -29,12 +29,13 @@
         color: var(--title-color);
     }
     .header-list {
+        color: #2E2F42;
     }
     .list {
         list-style: none;
     }
     
-    .header-list-item {
+    .header-link-item {
         color: var(--title-color);
     }
     .header-list-item-text {
